@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() 
+{
+
+    float total_km,meter,feet,inches,centimeter;
+    scanf("%f",&total_km);
+    meter=total_km*1000;
+    feet=total_km*3280.84;
+    inches=total_km*39370.1;
+    centimeter=total_km*100000;
+    printf("%0.2f m \n%0.2f ft \n%0.2f in \n%0.2f cm",meter,feet,inches,centimeter);
+    return 0;
+}
